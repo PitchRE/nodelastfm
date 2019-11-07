@@ -1,7 +1,4 @@
 const axios = require('axios');
-const util = require('util')
-
-
 
 function FetchData(query, apikey) {
     return new Promise((resolve, reject) => {
@@ -57,6 +54,5 @@ class lastfm {
     }
 
 }
-
 
 module.exports.lastfm = lastfm; 
