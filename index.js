@@ -17,17 +17,15 @@ function FetchData(query, apikey) {
 
 
 
-// Constructor
+
 
 class lastfm {
 
+    // Constructor
     constructor(key) {
         this.apikey = key
     }
 
-    doSomething() {
-
-    }
     userFriends(username) {
         return new Promise((resolve, reject) => {
             FetchData({
