@@ -187,7 +187,7 @@ class lastfm {
             FetchData({
                 user: username,
                 method: 'user.getWeeklyTrackChart',
-                from = from,
+                from: from,
                 to: to,
             }, this.apikey).then(function (result) {
                 resolve(result);
